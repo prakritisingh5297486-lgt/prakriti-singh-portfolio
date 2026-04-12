@@ -19,6 +19,7 @@
       background: var(--bg);
       color: var(--text);
       overflow-x: hidden;
+        cursor:none;
     }
 
     /* Animated Grid Background */
