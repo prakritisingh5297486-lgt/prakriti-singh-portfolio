@@ -14,10 +14,6 @@
       scroll-behavior:smooth;
     }
 
-    /* *{
-  outline: 1px solid red !important;
-} */
-
     body {
       font-family: 'Poppins', sans-serif;
       background: var(--bg);
@@ -64,13 +60,12 @@
 #cursor{
   width:20px;
   height:20px;
-  background:var(--neon2);
+  background:var(--neon1);
   border-radius:50%;
   position:fixed;
   top:0;
   left:0;
   z-index:99999;
-  transform:translate(-50%,-50%);
 }
 
     /* ================= NAVBAR ================= */
