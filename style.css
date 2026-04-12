@@ -60,7 +60,7 @@
 #cursor{
   width:20px;
   height:20px;
-  background:radial-gradient(circle,var(--neon1),var(--neon2));
+  background:radial-gradient(circle,var(--neon2),var(--neon1));
   border-radius:50%;
   position:fixed;
   top:0;
