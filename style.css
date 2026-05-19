@@ -172,14 +172,8 @@
     .profileimg {
     height:250px;
       width: 250px;
-      position: absolute;
-        top:160px;
-      z-index: 1;
-      /* position: relative; */
       padding: 3px;
-      /* border thickness */
       border-radius: 15px;
-      /* left: 300px; */
     }
 
     .hero :first-child {
