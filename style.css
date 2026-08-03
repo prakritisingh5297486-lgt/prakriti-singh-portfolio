@@ -270,6 +270,52 @@
       text-shadow:0 0 8px var(--neon1);
     }
 
+    /* For Services */
+    .service-card{
+        text-align:center;
+    }
+
+    .service-card i{
+        font-size:55px;
+        color:var(--neon1);
+        margin-bottom:20px;
+        transition:.3s ease;
+    }
+
+    .service-card:hover i{
+        transform:translateY(-8px) rotate(-10deg) scale(1.15);
+        text-shadow:0 0 10px var(--neon2),
+                    0 0 20px var(--neon2),
+                    0 0 40px var(--neon2);
+    }
+
+    .service-card h3{
+        margin:15px 0 10px;
+    }
+
+    .service-card p{
+        line-height:1.7;
+    }
+
+    /* For blogs */
+    .blog-card{
+      text-align:center;
+    }
+
+    .blog-card i:first-child{
+        font-size:65px;
+        color:var(--neon1);
+        margin-bottom:20px;
+        transition:.4s;
+    }
+
+    .blog-card:hover i:first-child{
+        transform:rotate(-10deg) scale(1.15);
+        text-shadow:0 0 10px var(--neon2),
+                    0 0 20px var(--neon2),
+                    0 0 40px var(--neon2);
+    }
+
     /* Neon Cards */
     .card {
       background: rgba(255, 255, 255, 0.03);
